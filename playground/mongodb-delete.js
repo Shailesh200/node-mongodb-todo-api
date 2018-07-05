@@ -35,7 +35,7 @@ MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
 
 
     // db.collection('Users')
-    //     .deleteMany({ _id: new ObjectId ("5b3cf091de6f2f134967f6ae")})
+    //     .deleteMany({name: "Shailesh")})
     //     .then((result) => {
     //         console.log(result);
     //     });
