@@ -1,23 +1,35 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongodb": "^3.1.0",
+    "mongodb": "^2.2.35",
     "mongoose": "^5.2.1"
   },
   "devDependencies": {
-    "expect": "^23.3.0",
+    "expect": "^1.20.2",
     "mocha": "^5.2.0",
-    "nodemon": "^1.17.5",
+    "nodemon": "^1.10.2",
     "supertest": "^3.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shailesh200/node-moongodb-todo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shailesh200/node-moongodb-todo-api/issues"
+  },
+  "homepage": "https://github.com/Shailesh200/node-moongodb-todo-api#readme",
+  "description": ""
 }
