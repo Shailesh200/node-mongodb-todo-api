@@ -50,7 +50,7 @@ app.get('/todos/:id', (req, res) => {
 
 });
 
-app.listen(3200, () => {
+app.listen(3000, () => {
   console.log('Started on port 3000');
 });
 
